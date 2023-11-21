@@ -64,8 +64,8 @@ const Home: NextPage = () => {
             , focus: 10, fov: 80, zoom: 6, position: [0, .5, 1.5]
           }} >
           {/* <focus-camera> */}
-          <ambientLight intensity={0.6} />
-          <pointLight position={[10, 10, 10]} />
+          <ambientLight intensity={0.2} />
+          <pointLight position={[10, 20, 50]} />
           {/* <directionalLight position={[-1, 0.5, 0]} /> */}
           <Suspense fallback={null}>
             {/* <Environment far={10} files="/nieve.hdr" ground={{ height: 10, scale: 1 }} /> */}
